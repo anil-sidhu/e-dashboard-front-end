@@ -10,7 +10,6 @@ const SignUp = () => {
         const auth = localStorage.getItem('user');
         if (auth) {
             navigate('/')
-
         }
     }, [])
 
